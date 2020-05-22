@@ -1,0 +1,18 @@
+.square {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    color: coral;
+    background-color: black;
+    margin: 1em;
+}
+
+.square:hover {
+    color: cornflowerblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
